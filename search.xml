@@ -4,6 +4,180 @@
   
     
     <entry>
+      <title>题解：CF1989C Two Movies</title>
+      <link href="/2024/07/15/ti-jie-cf1989c-two-movies/"/>
+      <url>/2024/07/15/ti-jie-cf1989c-two-movies/</url>
+      
+        <content type="html"><![CDATA[<h1 id="CF1989C-Two-Movies-题解"><a href="#CF1989C-Two-Movies-题解" class="headerlink" title="CF1989C Two Movies 题解"></a>CF1989C Two Movies 题解</h1><h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><p>考虑贪心。</p><p>这题分两种情况：</p><ol><li><p>$a_i\ne b_i$，这时选最大的加为最优。</p></li><li><p>$a_i= b_i$，用一个数组先存起来，最后再将小于零的加给大的，大于零的加给小的，使小的尽量大。</p></li></ol><h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight cpp"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> t,n,a[<span class="number">11451419</span>],b[<span class="number">11451419</span>],c[<span class="number">11451419</span>],aa,bb,ii;</span><br><span class="line"><span class="type">int</span> maxn,minn;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">cin&gt;&gt;t;</span><br><span class="line"><span class="keyword">while</span>(t--){</span><br><span class="line">cin&gt;&gt;n;</span><br><span class="line">bb=aa=<span class="number">0</span>;</span><br><span class="line">ii=<span class="number">0</span>;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++){</span><br><span class="line">cin&gt;&gt;a[i];</span><br><span class="line">}</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++){</span><br><span class="line">cin&gt;&gt;b[i];</span><br><span class="line">}</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++){</span><br><span class="line"><span class="keyword">if</span>(a[i]&gt;b[i]){</span><br><span class="line">aa+=a[i];</span><br><span class="line">}</span><br><span class="line"><span class="keyword">else</span> <span class="keyword">if</span>(b[i]&gt;a[i]){</span><br><span class="line">bb+=b[i];</span><br><span class="line">}</span><br><span class="line"><span class="keyword">else</span>{</span><br><span class="line">c[++ii]=a[i];</span><br><span class="line">}</span><br><span class="line">}</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=ii;i++){</span><br><span class="line"><span class="keyword">if</span>(c[i]&gt;<span class="number">0</span>){</span><br><span class="line"><span class="keyword">if</span>(aa&gt;=bb) bb+=<span class="number">1</span>;</span><br><span class="line"><span class="keyword">else</span> aa+=<span class="number">1</span>;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">if</span>(c[i]&lt;<span class="number">0</span>){</span><br><span class="line"><span class="keyword">if</span>(aa&gt;=bb) aa-=<span class="number">1</span>;</span><br><span class="line"><span class="keyword">else</span> bb-=<span class="number">1</span>;</span><br><span class="line">}</span><br><span class="line">}</span><br><span class="line">cout&lt;&lt;<span class="built_in">min</span>(aa,bb)&lt;&lt;<span class="string">'\n'</span>;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题解 </category>
+          
+          <category> codeforces </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 题解 </tag>
+            
+            <tag> codeforces </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>题解：CF1989B Substring and Subsequence</title>
+      <link href="/2024/07/15/ti-jie-cf1989b-substring-and-subsequence/"/>
+      <url>/2024/07/15/ti-jie-cf1989b-substring-and-subsequence/</url>
+      
+        <content type="html"><![CDATA[<h2 id="题意："><a href="#题意：" class="headerlink" title="题意："></a>题意：</h2><p>构造一个字符串 $c$，使 $a$ 为 $c$ 的字串且 $b$ 为 $c$ 的子序列，求 $c$ 的最小长度。</p><h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><p>设 $a$ 的长度为 $lena$，$b$ 的长度为 $lenb$，$a$ 与 $b$ 的最大公共子序列长度为 $s$，因为 $c$ 中一定包含 $a$ 跟 $b$ 中的所有字符，所以我们可以知道 $c$ 的最小长度为 $lena+lenb-s$。</p><h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><figure class="highlight cpp"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> t,maxn=<span class="number">-1</span>;</span><br><span class="line">string s,ss;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">cin&gt;&gt;t;</span><br><span class="line"><span class="keyword">while</span>(t--){</span><br><span class="line">cin&gt;&gt;s&gt;&gt;ss;</span><br><span class="line"><span class="type">int</span> lena,lenb;</span><br><span class="line">lena=s.<span class="built_in">size</span>();</span><br><span class="line">lenb=ss.<span class="built_in">size</span>();</span><br><span class="line">maxn=<span class="number">-1</span>;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;lenb;i++){</span><br><span class="line"><span class="type">int</span> n=i,len=<span class="number">0</span>;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;lena;j++){</span><br><span class="line"><span class="keyword">if</span>(s[j]==ss[n]){</span><br><span class="line">n++;</span><br><span class="line">len++;</span><br><span class="line">}</span><br><span class="line">}</span><br><span class="line">maxn=<span class="built_in">max</span>(maxn,len);</span><br><span class="line">}</span><br><span class="line">cout&lt;&lt;lena+lenb-maxn&lt;&lt;endl;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题解 </category>
+          
+          <category> codeforces </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 题解 </tag>
+            
+            <tag> codeforces </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>题解：P10732 [NOISG2019 Prelim] Palindromic FizzBuzz</title>
+      <link href="/2024/07/15/ti-jie-p10732-noisg2019-prelim-palindromic-fizzbuzz/"/>
+      <url>/2024/07/15/ti-jie-p10732-noisg2019-prelim-palindromic-fizzbuzz/</url>
+      
+        <content type="html"><![CDATA[<p><strong>前置知识：</strong></p><ol><li><p><a href="https://blog.csdn.net/snowcatvia/article/details/96617917">to_string() 函数</a></p></li><li><p><a href="https://blog.csdn.net/Aibiabcheng/article/details/104708516">将 Dev-C++ 改为 c++14</a></p></li></ol><h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><p>为什么要改为 c++14 呢？因为 to_string() 这个函数到 c++14 才有，而 DEV 默认是 c++11。</p><p>我们枚举这个区间，将其中的每个数用 to_string() 变为字符串，这样就可以枚举它的每一位，方便判断。</p><p>若字符串的长度为 $s$，则枚举位数的循环只需循环 $\left \lfloor \frac{s}{2} \right \rfloor$ 次即可。</p><p>若此字符串为 $w$，则 $w<em>i$ 对应的为 $w</em>{s-i-1}$。</p><p>按照这个将相等的组数记下来，如果它是回文数的话，那么相等的组数应为 $\left \lfloor \frac{s}{2} \right \rfloor$。</p><p>判断一下即可。</p><h2 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h2><p>数据范围为 $1 \le S \le E \le 10^{18},E-S+1\le 10^5$，需要开 long long。</p><h2 id="AC-代码："><a href="#AC-代码：" class="headerlink" title="AC 代码："></a>AC 代码：</h2><figure class="highlight cpp"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">long</span> <span class="type">long</span> s,e,c;</span><br><span class="line">string ss;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">cin&gt;&gt;s&gt;&gt;e;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">long</span> <span class="type">long</span> i=s;i&lt;=e;i++){</span><br><span class="line">ss.<span class="built_in">clear</span>();</span><br><span class="line">c=<span class="number">0</span>;</span><br><span class="line">ss=<span class="built_in">to_string</span>(i);</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;ss.<span class="built_in">size</span>()/<span class="number">2</span>;i++){</span><br><span class="line"><span class="keyword">if</span>(ss[i]==ss[ss.<span class="built_in">size</span>()-i<span class="number">-1</span>]){</span><br><span class="line">c++;</span><br><span class="line">}</span><br><span class="line">}</span><br><span class="line"><span class="keyword">if</span>(c==ss.<span class="built_in">size</span>()/<span class="number">2</span>){</span><br><span class="line">cout&lt;&lt;<span class="string">"Palindrome!"</span>&lt;&lt;endl;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">else</span> cout&lt;&lt;i&lt;&lt;endl;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题解 </category>
+          
+          <category> 洛谷 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 洛谷 </tag>
+            
+            <tag> 题解 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>题解：P10720 [GESP202406 五级] 小杨的幸运数字</title>
+      <link href="/2024/07/15/ti-jie-p10720-gesp202406-wu-ji-xiao-yang-de-xing-yun-shu-zi/"/>
+      <url>/2024/07/15/ti-jie-p10720-gesp202406-wu-ji-xiao-yang-de-xing-yun-shu-zi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><p>其实就是将每个数分解质因数，只不过需要加亿点点优化：</p><ol><li><p>在找到一个质因数后，要用一个循环将这个因数除干净，这样下次遇到时就不会再统计一遍，达到去重的目的。</p></li><li><p>先将 $2$ 这个特殊的质数除掉，后面从 $3$ 开始除，每次加 $2$，这样能省下挺多时间。</p></li></ol><h2 id="AC-代码："><a href="#AC-代码：" class="headerlink" title="AC 代码："></a>AC 代码：</h2><figure class="highlight cpp"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">is_prime</span><span class="params">(<span class="type">int</span> n)</span> </span>{</span><br><span class="line"><span class="type">int</span> i;</span><br><span class="line"><span class="keyword">if</span>(n&lt;<span class="number">2</span>)<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line"><span class="keyword">for</span>(i=<span class="number">2</span>; i*i&lt;=n; i++) {</span><br><span class="line"><span class="keyword">if</span>(n%i==<span class="number">0</span>) {</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line"><span class="keyword">break</span>;</span><br><span class="line">}</span><br><span class="line">}</span><br><span class="line"><span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">}<span class="comment">//判断是否为质数</span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>{</span><br><span class="line"><span class="type">int</span> n,k,c=<span class="number">0</span>;</span><br><span class="line">cin&gt;&gt;k;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>; i&lt;=k; i++) {</span><br><span class="line">cin&gt;&gt;n;</span><br><span class="line"><span class="keyword">if</span>(<span class="built_in">is_prime</span>(n)){</span><br><span class="line">cout&lt;&lt;<span class="number">0</span>&lt;&lt;endl;</span><br><span class="line"><span class="keyword">continue</span>;</span><br><span class="line">}</span><br><span class="line">c=<span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> h=<span class="number">2</span>;</span><br><span class="line"><span class="keyword">if</span>(n%h==<span class="number">0</span>) {</span><br><span class="line"><span class="keyword">while</span>(n%h==<span class="number">0</span>)n/=h;</span><br><span class="line">c++;</span><br><span class="line">}</span><br><span class="line">h++;</span><br><span class="line"><span class="keyword">while</span>(n!=<span class="number">1</span>) {</span><br><span class="line"><span class="keyword">if</span>(n%h==<span class="number">0</span>) {</span><br><span class="line"><span class="keyword">while</span>(n%h==<span class="number">0</span>)n/=h;</span><br><span class="line">c++;</span><br><span class="line">}</span><br><span class="line">h+=<span class="number">2</span>;</span><br><span class="line">}<span class="comment">//分解质因数</span></span><br><span class="line"><span class="keyword">if</span>(c==<span class="number">2</span>) {</span><br><span class="line">cout&lt;&lt;<span class="number">1</span>&lt;&lt;endl;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">else</span> cout&lt;&lt;<span class="number">0</span>&lt;&lt;endl;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题解 </category>
+          
+          <category> 洛谷 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 洛谷 </tag>
+            
+            <tag> 题解 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>题解：P10709 [NOISG2024 Prelim] Party</title>
+      <link href="/2024/07/15/ti-jie-p10709-noisg2024-prelim-party/"/>
+      <url>/2024/07/15/ti-jie-p10709-noisg2024-prelim-party/</url>
+      
+        <content type="html"><![CDATA[<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><p>要先搞懂实际能坐的有几个座位。稍微用脑子想一想即可知道一共有 $\left \lfloor \frac{n+1}{2} \right \rfloor$ 个座位。剩下的就好办了。</p><p>先将他们的快乐值排序，然后在有限的空间里将比较大的且大于零的加进来即可。</p><h2 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h2><p>很喜欢 OIer 们的一句话：十年 OI 一场空，不开 long long 见祖宗。</p><h2 id="AC-代码："><a href="#AC-代码：" class="headerlink" title="AC 代码："></a>AC 代码：</h2><figure class="highlight cpp"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">long</span> <span class="type">long</span> n;</span><br><span class="line"><span class="type">long</span> <span class="type">long</span> a[<span class="number">11451419</span>],c;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">cin&gt;&gt;n;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++){</span><br><span class="line">cin&gt;&gt;a[i];</span><br><span class="line">}</span><br><span class="line"><span class="built_in">sort</span>(a+<span class="number">1</span>,a+n+<span class="number">1</span>);</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=n;i&gt;n/<span class="number">2</span>;i--){</span><br><span class="line"><span class="keyword">if</span>(a[i]&lt;=<span class="number">0</span>){</span><br><span class="line"><span class="keyword">break</span>;</span><br><span class="line">}</span><br><span class="line">c+=a[i];</span><br><span class="line">}</span><br><span class="line">cout&lt;&lt;c;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题解 </category>
+          
+          <category> 洛谷 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 洛谷 </tag>
+            
+            <tag> 题解 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>题解：P10708 [NOISG2024 Prelim] Tourist</title>
+      <link href="/2024/07/15/ti-jie-p10708-noisg2024-prelim-tourist/"/>
+      <url>/2024/07/15/ti-jie-p10708-noisg2024-prelim-tourist/</url>
+      
+        <content type="html"><![CDATA[<h2 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h2><p>一道贪心题。只需要判断当日用第一种票花钱多还是第二种票花钱多，再将花钱少的哪一种加入到总钱数中即可。</p><h2 id="AC-代码："><a href="#AC-代码：" class="headerlink" title="AC 代码："></a>AC 代码：</h2><figure class="highlight cpp"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> n,x,y,a,c;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">cin&gt;&gt;n&gt;&gt;x&gt;&gt;y;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++){</span><br><span class="line">cin&gt;&gt;a;</span><br><span class="line"><span class="keyword">if</span>(a*x&gt;=y){</span><br><span class="line">c+=y;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">else</span>{</span><br><span class="line">c+=a*x;</span><br><span class="line">}</span><br><span class="line">}</span><br><span class="line">cout&lt;&lt;c;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题解 </category>
+          
+          <category> 洛谷 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 洛谷 </tag>
+            
+            <tag> 题解 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>P1204 [USACO1.2] 挤牛奶Milking Cows 题解</title>
       <link href="/2024/06/29/p1204-usaco1-2-ji-niu-nai-milking-cows-ti-jie/"/>
       <url>/2024/06/29/p1204-usaco1-2-ji-niu-nai-milking-cows-ti-jie/</url>

@@ -6,7 +6,7 @@
   <link href="https://ishdnkagich.github.io/atom.xml" rel="self"/>
   
   <link href="https://ishdnkagich.github.io/"/>
-  <updated>2024-06-29T12:52:31.446Z</updated>
+  <updated>2024-07-15T10:54:44.261Z</updated>
   <id>https://ishdnkagich.github.io/</id>
   
   <author>
@@ -15,6 +15,184 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>题解：CF1989C Two Movies</title>
+    <link href="https://ishdnkagich.github.io/2024/07/15/ti-jie-cf1989c-two-movies/"/>
+    <id>https://ishdnkagich.github.io/2024/07/15/ti-jie-cf1989c-two-movies/</id>
+    <published>2024-07-15T10:54:00.000Z</published>
+    <updated>2024-07-15T10:54:44.261Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;CF1989C-Two-Movies-题解&quot;&gt;&lt;a href=&quot;#CF1989C-Two-Movies-题解&quot; class=&quot;headerlink&quot; title=&quot;CF1989C Two Movies 题解&quot;&gt;&lt;/a&gt;CF1989C Two Movies</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="codeforces" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/codeforces/"/>
+    
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="codeforces" scheme="https://ishdnkagich.github.io/tags/codeforces/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解：CF1989B Substring and Subsequence</title>
+    <link href="https://ishdnkagich.github.io/2024/07/15/ti-jie-cf1989b-substring-and-subsequence/"/>
+    <id>https://ishdnkagich.github.io/2024/07/15/ti-jie-cf1989b-substring-and-subsequence/</id>
+    <published>2024-07-15T10:53:00.000Z</published>
+    <updated>2024-07-15T10:54:02.828Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;题意：&quot;&gt;&lt;a href=&quot;#题意：&quot; class=&quot;headerlink&quot; title=&quot;题意：&quot;&gt;&lt;/a&gt;题意：&lt;/h2&gt;&lt;p&gt;构造一个字符串 $c$，使 $a$ 为 $c$ 的字串且 $b$ 为 $c$ 的子序列，求 $c$ 的最小长度。&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="codeforces" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/codeforces/"/>
+    
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="codeforces" scheme="https://ishdnkagich.github.io/tags/codeforces/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解：P10732 [NOISG2019 Prelim] Palindromic FizzBuzz</title>
+    <link href="https://ishdnkagich.github.io/2024/07/15/ti-jie-p10732-noisg2019-prelim-palindromic-fizzbuzz/"/>
+    <id>https://ishdnkagich.github.io/2024/07/15/ti-jie-p10732-noisg2019-prelim-palindromic-fizzbuzz/</id>
+    <published>2024-07-15T10:52:00.000Z</published>
+    <updated>2024-07-15T10:52:50.257Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;前置知识：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/snowcatvia/article/details/96617917&quot;&gt;to_string()</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="洛谷" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/%E6%B4%9B%E8%B0%B7/"/>
+    
+    
+    <category term="洛谷" scheme="https://ishdnkagich.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解：P10720 [GESP202406 五级] 小杨的幸运数字</title>
+    <link href="https://ishdnkagich.github.io/2024/07/15/ti-jie-p10720-gesp202406-wu-ji-xiao-yang-de-xing-yun-shu-zi/"/>
+    <id>https://ishdnkagich.github.io/2024/07/15/ti-jie-p10720-gesp202406-wu-ji-xiao-yang-de-xing-yun-shu-zi/</id>
+    <published>2024-07-15T10:25:00.000Z</published>
+    <updated>2024-07-15T10:25:44.194Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;思路：&quot;&gt;&lt;a href=&quot;#思路：&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="洛谷" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/%E6%B4%9B%E8%B0%B7/"/>
+    
+    
+    <category term="洛谷" scheme="https://ishdnkagich.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解：P10709 [NOISG2024 Prelim] Party</title>
+    <link href="https://ishdnkagich.github.io/2024/07/15/ti-jie-p10709-noisg2024-prelim-party/"/>
+    <id>https://ishdnkagich.github.io/2024/07/15/ti-jie-p10709-noisg2024-prelim-party/</id>
+    <published>2024-07-15T10:24:00.000Z</published>
+    <updated>2024-07-15T10:25:05.633Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;思路：&quot;&gt;&lt;a href=&quot;#思路：&quot; class=&quot;headerlink&quot; title=&quot;思路：&quot;&gt;&lt;/a&gt;思路：&lt;/h2&gt;&lt;p&gt;要先搞懂实际能坐的有几个座位。稍微用脑子想一想即可知道一共有 $&#92;left &#92;lfloor &#92;frac{n+1}{2}</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="洛谷" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/%E6%B4%9B%E8%B0%B7/"/>
+    
+    
+    <category term="洛谷" scheme="https://ishdnkagich.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解：P10708 [NOISG2024 Prelim] Tourist</title>
+    <link href="https://ishdnkagich.github.io/2024/07/15/ti-jie-p10708-noisg2024-prelim-tourist/"/>
+    <id>https://ishdnkagich.github.io/2024/07/15/ti-jie-p10708-noisg2024-prelim-tourist/</id>
+    <published>2024-07-15T10:21:00.000Z</published>
+    <updated>2024-07-15T10:24:11.333Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;思路：&quot;&gt;&lt;a href=&quot;#思路：&quot; class=&quot;headerlink&quot; title=&quot;思路：&quot;&gt;&lt;/a&gt;思路：&lt;/h2&gt;&lt;p&gt;一道贪心题。只需要判断当日用第一种票花钱多还是第二种票花钱多，再将花钱少的哪一种加入到总钱数中即可。&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="洛谷" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/%E6%B4%9B%E8%B0%B7/"/>
+    
+    
+    <category term="洛谷" scheme="https://ishdnkagich.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
   
   <entry>
     <title>P1204 [USACO1.2] 挤牛奶Milking Cows 题解</title>
@@ -420,186 +598,6 @@
     <category term="洛谷" scheme="https://ishdnkagich.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
     
     <category term="生活" scheme="https://ishdnkagich.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解：CF1956A Nene&#39;s Game</title>
-    <link href="https://ishdnkagich.github.io/2024/06/29/ti-jie-cf1956a-nene-s-game/"/>
-    <id>https://ishdnkagich.github.io/2024/06/29/ti-jie-cf1956a-nene-s-game/</id>
-    <published>2024-06-29T12:40:00.000Z</published>
-    <updated>2024-06-29T12:41:06.537Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;思路：&quot;&gt;&lt;a href=&quot;#思路：&quot; class=&quot;headerlink&quot; title=&quot;思路：&quot;&gt;&lt;/a&gt;思路：&lt;/h2&gt;&lt;p&gt;此题看起来很复杂，其实仔细推一推可以发现是有规律的。&lt;/p&gt;
-&lt;p&gt;分两种情况：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;当 $n&#92;le</summary>
-        
-      
-    
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="codeforces" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/codeforces/"/>
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="codeforces" scheme="https://ishdnkagich.github.io/tags/codeforces/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解：CF1966B Rectangle Filling</title>
-    <link href="https://ishdnkagich.github.io/2024/06/29/ti-jie-cf1966b-rectangle-filling/"/>
-    <id>https://ishdnkagich.github.io/2024/06/29/ti-jie-cf1966b-rectangle-filling/</id>
-    <published>2024-06-29T12:39:00.000Z</published>
-    <updated>2024-06-29T12:40:05.862Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;题意：&quot;&gt;&lt;a href=&quot;#题意：&quot; class=&quot;headerlink&quot; title=&quot;题意：&quot;&gt;&lt;/a&gt;题意：&lt;/h2&gt;&lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="codeforces" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/codeforces/"/>
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="codeforces" scheme="https://ishdnkagich.github.io/tags/codeforces/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解：UVA12414 Calculating Yuan Fen</title>
-    <link href="https://ishdnkagich.github.io/2024/06/29/ti-jie-uva12414-calculating-yuan-fen/"/>
-    <id>https://ishdnkagich.github.io/2024/06/29/ti-jie-uva12414-calculating-yuan-fen/</id>
-    <published>2024-06-29T12:38:00.000Z</published>
-    <updated>2024-06-29T12:39:10.623Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;题意其他大佬已经说得很清楚了，尤其是第一篇，所以我就不重复了。&lt;/p&gt;
-&lt;h3 id=&quot;思路：&quot;&gt;&lt;a href=&quot;#思路：&quot; class=&quot;headerlink&quot; title=&quot;思路：&quot;&gt;&lt;/a&gt;思路：&lt;/h3&gt;&lt;p&gt;众所周知，string 库中有个很厉害的函数叫</summary>
-        
-      
-    
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="UVA" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/UVA/"/>
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="UVA" scheme="https://ishdnkagich.github.io/tags/UVA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解：AT_xmascon21_b Bad Mood</title>
-    <link href="https://ishdnkagich.github.io/2024/06/29/ti-jie-at-xmascon21-b-bad-mood/"/>
-    <id>https://ishdnkagich.github.io/2024/06/29/ti-jie-at-xmascon21-b-bad-mood/</id>
-    <published>2024-06-29T12:10:00.000Z</published>
-    <updated>2024-06-29T12:35:12.067Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;思路：&quot;&gt;&lt;a href=&quot;#思路：&quot; class=&quot;headerlink&quot; title=&quot;思路：&quot;&gt;&lt;/a&gt;思路：&lt;/h2&gt;&lt;p&gt;这题 $1 &#92;le M,N &#92;le</summary>
-        
-      
-    
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="ATcoder" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/ATcoder/"/>
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="ATcoder" scheme="https://ishdnkagich.github.io/tags/ATcoder/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解：CF1932D Card Game</title>
-    <link href="https://ishdnkagich.github.io/2024/06/29/ti-jie-cf1932d-card-game/"/>
-    <id>https://ishdnkagich.github.io/2024/06/29/ti-jie-cf1932d-card-game/</id>
-    <published>2024-06-29T12:08:00.000Z</published>
-    <updated>2024-06-29T12:36:19.156Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;贪心题。&lt;/p&gt;
-&lt;p&gt;我们可以先把王牌放在一边，将普通牌的每一种花色按照数字从大到小排好，这样它们就可以互相抵消，最后每一组花色都会剩下 0 或 1 张牌，再用王牌将它们杀掉，如果王牌不够用，也就是说剩下的普通牌的数量比王牌多，就无解，输出</summary>
-        
-      
-    
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="codeforces" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/codeforces/"/>
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="codeforces" scheme="https://ishdnkagich.github.io/tags/codeforces/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>B3614 【模板】栈 题解</title>
-    <link href="https://ishdnkagich.github.io/2024/06/29/b3614-mo-ban-zhan-ti-jie/"/>
-    <id>https://ishdnkagich.github.io/2024/06/29/b3614-mo-ban-zhan-ti-jie/</id>
-    <published>2024-06-29T12:07:00.000Z</published>
-    <updated>2024-06-29T12:36:53.763Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;感觉用手工栈更简单。&lt;/p&gt;
-&lt;h1 id=&quot;思路：&quot;&gt;&lt;a href=&quot;#思路：&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="洛谷" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/%E6%B4%9B%E8%B0%B7/"/>
-    
-    
-    <category term="洛谷" scheme="https://ishdnkagich.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
