@@ -6,7 +6,7 @@
   <link href="https://ishdnkagich.github.io/atom.xml" rel="self"/>
   
   <link href="https://ishdnkagich.github.io/"/>
-  <updated>2024-07-15T10:54:44.261Z</updated>
+  <updated>2024-08-08T10:17:30.019Z</updated>
   <id>https://ishdnkagich.github.io/</id>
   
   <author>
@@ -15,6 +15,94 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>题解：CF1982B Collatz Conjecture</title>
+    <link href="https://ishdnkagich.github.io/2024/08/08/ti-jie-cf1982b-collatz-conjecture/"/>
+    <id>https://ishdnkagich.github.io/2024/08/08/ti-jie-cf1982b-collatz-conjecture/</id>
+    <published>2024-08-08T10:17:00.000Z</published>
+    <updated>2024-08-08T10:17:30.019Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;CF1982B-题解&quot;&gt;&lt;a href=&quot;#CF1982B-题解&quot; class=&quot;headerlink&quot; title=&quot;CF1982B 题解&quot;&gt;&lt;/a&gt;CF1982B 题解&lt;/h1&gt;&lt;h2 id=&quot;思路：&quot;&gt;&lt;a href=&quot;#思路：&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="codeforces" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/codeforces/"/>
+    
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="codeforces" scheme="https://ishdnkagich.github.io/tags/codeforces/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解：CF1974D Ingenuity-2</title>
+    <link href="https://ishdnkagich.github.io/2024/08/08/ti-jie-cf1974d-ingenuity-2/"/>
+    <id>https://ishdnkagich.github.io/2024/08/08/ti-jie-cf1974d-ingenuity-2/</id>
+    <published>2024-08-08T10:16:00.000Z</published>
+    <updated>2024-08-08T10:16:47.866Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;思路：&quot;&gt;&lt;a href=&quot;#思路：&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="codeforces" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/codeforces/"/>
+    
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="codeforces" scheme="https://ishdnkagich.github.io/tags/codeforces/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解：P1090 [NOIP2004 提高组] 合并果子 / [USACO06NOV] Fence Repair G</title>
+    <link href="https://ishdnkagich.github.io/2024/08/08/ti-jie-p1090-noip2004-ti-gao-zu-he-bing-guo-zi-usaco06nov-fence-repair-g/"/>
+    <id>https://ishdnkagich.github.io/2024/08/08/ti-jie-p1090-noip2004-ti-gao-zu-he-bing-guo-zi-usaco06nov-fence-repair-g/</id>
+    <published>2024-08-08T10:15:00.000Z</published>
+    <updated>2024-08-08T10:15:47.878Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;提供一个不一样的做法。&lt;/p&gt;
+&lt;h2 id=&quot;思路：&quot;&gt;&lt;a href=&quot;#思路：&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="洛谷" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/%E6%B4%9B%E8%B0%B7/"/>
+    
+    
+    <category term="洛谷" scheme="https://ishdnkagich.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
   
   <entry>
     <title>题解：CF1989C Two Movies</title>
@@ -511,93 +599,6 @@
     <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
     
     <category term="codeforces" scheme="https://ishdnkagich.github.io/tags/codeforces/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解：CF1948B Array Fix</title>
-    <link href="https://ishdnkagich.github.io/2024/06/29/ti-jie-cf1948b-array-fix/"/>
-    <id>https://ishdnkagich.github.io/2024/06/29/ti-jie-cf1948b-array-fix/</id>
-    <published>2024-06-29T12:43:00.000Z</published>
-    <updated>2024-06-29T12:43:53.683Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;思路：&quot;&gt;&lt;a href=&quot;#思路：&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="codeforces" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/codeforces/"/>
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="codeforces" scheme="https://ishdnkagich.github.io/tags/codeforces/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解：P10294 [CCC 2024 J5] Harvest Waterloo</title>
-    <link href="https://ishdnkagich.github.io/2024/06/29/ti-jie-p10294-ccc-2024-j5-harvest-waterloo/"/>
-    <id>https://ishdnkagich.github.io/2024/06/29/ti-jie-p10294-ccc-2024-j5-harvest-waterloo/</id>
-    <published>2024-06-29T12:42:00.000Z</published>
-    <updated>2024-06-29T12:43:07.609Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;思路：&quot;&gt;&lt;a href=&quot;#思路：&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="洛谷" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/%E6%B4%9B%E8%B0%B7/"/>
-    
-    
-    <category term="洛谷" scheme="https://ishdnkagich.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>洛谷bug合集</title>
-    <link href="https://ishdnkagich.github.io/2024/06/29/luo-gu-bug-he-ji/"/>
-    <id>https://ishdnkagich.github.io/2024/06/29/luo-gu-bug-he-ji/</id>
-    <published>2024-06-29T12:41:00.000Z</published>
-    <updated>2024-06-29T12:42:16.995Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;回复的时间 bug&lt;br&gt;&lt;img src=&quot;https://pic.imgdb.cn/item/6638a6d60ea9cb14038c2b67.png&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
-&lt;li&gt;私信名称与实际不符&lt;br&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="生活" scheme="https://ishdnkagich.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="洛谷" scheme="https://ishdnkagich.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
-    <category term="生活" scheme="https://ishdnkagich.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
