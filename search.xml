@@ -4,6 +4,64 @@
   
     
     <entry>
+      <title>题解：P11041 [蓝桥杯 2024 省 Java B] 报数游戏</title>
+      <link href="/2024/09/20/ti-jie-p11041-lan-qiao-bei-2024-sheng-java-b-bao-shu-you-xi/"/>
+      <url>/2024/09/20/ti-jie-p11041-lan-qiao-bei-2024-sheng-java-b-bao-shu-you-xi/</url>
+      
+        <content type="html"><![CDATA[<h3 id="思路。"><a href="#思路。" class="headerlink" title="思路。"></a>思路。</h3><p>找规律题。</p><p>发现数列每 10 个一循环，所以我们只需要掏出电脑上自带的计算器算一下就能知道这个数是 2429042904288。</p><p>输出即可。</p><h3 id="AC-代码。"><a href="#AC-代码。" class="headerlink" title="AC 代码。"></a>AC 代码。</h3><figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> {</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> {</span><br><span class="line">        System.out.println(<span class="string">"2429042904288"</span>);</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题解 </category>
+          
+          <category> 洛谷 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 洛谷 </tag>
+            
+            <tag> 题解 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>题解：P6635 「JYLOI Round 1」箭头调度</title>
+      <link href="/2024/09/20/ti-jie-p6635-jyloi-round-1-jian-tou-diao-du/"/>
+      <url>/2024/09/20/ti-jie-p6635-jyloi-round-1-jian-tou-diao-du/</url>
+      
+        <content type="html"><![CDATA[<p>由于拓扑排序连边规则是对于两个点 $a_i,a_j$，如果 $i&lt;j$，那么将 $a_i$ 连向 $a_j$。</p><p>因为数据很小，所以我们用 <code>next_permutation</code> 求出第 $k$ 个排列，再将每个数在此排列中的位置存起来，按照上面的规则连边即可。</p><figure class="highlight cpp"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> n,m,k,a[<span class="number">10005</span>],b[<span class="number">10005</span>];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>{</span><br><span class="line">cin&gt;&gt;n&gt;&gt;m&gt;&gt;k;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++){</span><br><span class="line">a[i]=i;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=k<span class="number">-1</span>;i++){</span><br><span class="line"><span class="built_in">next_permutation</span>(a+<span class="number">1</span>,a+n+<span class="number">1</span>);</span><br><span class="line">}</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++){</span><br><span class="line">b[a[i]]=i;</span><br><span class="line">}</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=m;i++){</span><br><span class="line"><span class="type">int</span> u,v;</span><br><span class="line">cin&gt;&gt;u&gt;&gt;v;</span><br><span class="line">cout&lt;&lt;(b[u]&gt;b[v]);</span><br><span class="line">}</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题解 </category>
+          
+          <category> 洛谷 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 洛谷 </tag>
+            
+            <tag> 题解 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>题解：CF1982B Collatz Conjecture</title>
       <link href="/2024/08/08/ti-jie-cf1982b-collatz-conjecture/"/>
       <url>/2024/08/08/ti-jie-cf1982b-collatz-conjecture/</url>

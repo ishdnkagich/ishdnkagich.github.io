@@ -6,7 +6,7 @@
   <link href="https://ishdnkagich.github.io/atom.xml" rel="self"/>
   
   <link href="https://ishdnkagich.github.io/"/>
-  <updated>2024-08-08T10:17:30.019Z</updated>
+  <updated>2024-09-20T12:35:58.203Z</updated>
   <id>https://ishdnkagich.github.io/</id>
   
   <author>
@@ -15,6 +15,66 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>题解：P11041 [蓝桥杯 2024 省 Java B] 报数游戏</title>
+    <link href="https://ishdnkagich.github.io/2024/09/20/ti-jie-p11041-lan-qiao-bei-2024-sheng-java-b-bao-shu-you-xi/"/>
+    <id>https://ishdnkagich.github.io/2024/09/20/ti-jie-p11041-lan-qiao-bei-2024-sheng-java-b-bao-shu-you-xi/</id>
+    <published>2024-09-20T12:34:00.000Z</published>
+    <updated>2024-09-20T12:35:58.203Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;思路。&quot;&gt;&lt;a href=&quot;#思路。&quot; class=&quot;headerlink&quot; title=&quot;思路。&quot;&gt;&lt;/a&gt;思路。&lt;/h3&gt;&lt;p&gt;找规律题。&lt;/p&gt;
+&lt;p&gt;发现数列每 10 个一循环，所以我们只需要掏出电脑上自带的计算器算一下就能知道这个数是</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="洛谷" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/%E6%B4%9B%E8%B0%B7/"/>
+    
+    
+    <category term="洛谷" scheme="https://ishdnkagich.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解：P6635 「JYLOI Round 1」箭头调度</title>
+    <link href="https://ishdnkagich.github.io/2024/09/20/ti-jie-p6635-jyloi-round-1-jian-tou-diao-du/"/>
+    <id>https://ishdnkagich.github.io/2024/09/20/ti-jie-p6635-jyloi-round-1-jian-tou-diao-du/</id>
+    <published>2024-09-20T12:32:00.000Z</published>
+    <updated>2024-09-20T12:32:31.217Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;由于拓扑排序连边规则是对于两个点 $a_i,a_j$，如果 $i&amp;lt;j$，那么将 $a_i$ 连向 $a_j$。&lt;/p&gt;
+&lt;p&gt;因为数据很小，所以我们用 &lt;code&gt;next_permutation&lt;/code&gt; 求出第 $k$</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="洛谷" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/%E6%B4%9B%E8%B0%B7/"/>
+    
+    
+    <category term="洛谷" scheme="https://ishdnkagich.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
   
   <entry>
     <title>题解：CF1982B Collatz Conjecture</title>
@@ -541,64 +601,6 @@
     <category term="洛谷" scheme="https://ishdnkagich.github.io/tags/%E6%B4%9B%E8%B0%B7/"/>
     
     <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解：CF1933D Turtle Tenacity: Continual Mods</title>
-    <link href="https://ishdnkagich.github.io/2024/06/29/ti-jie-cf1933d-turtle-tenacity-continual-mods/"/>
-    <id>https://ishdnkagich.github.io/2024/06/29/ti-jie-cf1933d-turtle-tenacity-continual-mods/</id>
-    <published>2024-06-29T12:44:00.000Z</published>
-    <updated>2024-06-29T12:44:35.939Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;思路：&quot;&gt;&lt;a href=&quot;#思路：&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="codeforces" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/codeforces/"/>
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="codeforces" scheme="https://ishdnkagich.github.io/tags/codeforces/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解：CF1934B Yet Another Coin Problem</title>
-    <link href="https://ishdnkagich.github.io/2024/06/29/ti-jie-cf1934b-yet-another-coin-problem/"/>
-    <id>https://ishdnkagich.github.io/2024/06/29/ti-jie-cf1934b-yet-another-coin-problem/</id>
-    <published>2024-06-29T12:44:00.000Z</published>
-    <updated>2024-06-29T12:45:28.909Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;思路&quot;&gt;&lt;a href=&quot;#思路&quot; class=&quot;headerlink&quot; title=&quot;思路&quot;&gt;&lt;/a&gt;思路&lt;/h2&gt;&lt;p&gt;根据我们小学学的最小公倍数可知：1 与 3 的最小公倍数为 3，1 的乘数为 3；3 与 6 的最小公倍数为 6，3 的乘数为 2；6 与</summary>
-        
-      
-    
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="codeforces" scheme="https://ishdnkagich.github.io/categories/%E9%A2%98%E8%A7%A3/codeforces/"/>
-    
-    
-    <category term="题解" scheme="https://ishdnkagich.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="codeforces" scheme="https://ishdnkagich.github.io/tags/codeforces/"/>
     
   </entry>
   
